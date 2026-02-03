@@ -1,3 +1,34 @@
+# 🛒 LTen-Commerce (POS System)
+
+A modern, full-stack Point of Sale (POS) system built to handle real-world retail scenarios efficiently. Designed with **Laravel** and **Inertia.js**, featuring a unique **Real-time QRIS Simulation** ecosystem.
+
+![Project Screenshot](https://via.placeholder.com/800x400?text=Upload+Screenshot+Project+Kamu+Disini)
+*(Jangan lupa ganti link gambar di atas dengan screenshot asli project kamu)*
+
+## 🔥 Key Features
+
+- **🚀 Modern Tech Stack:** Built with Laravel 10, Inertia.js, React, and Tailwind CSS.
+- **💳 QRIS Payment Simulator:** A custom-built ecosystem where the POS generates a QR Code, and a mobile-view web app allows scanning and payment simulation in real-time.
+- **🎁 Loyalty Program:** Automated point system for customers (Earn & Redeem points).
+- **⚡ Fast Checkout:** Optimized cart logic with instant tax calculation and stock management.
+- **📱 Responsive Design:** Ready for desktop cashier monitors and mobile devices.
+
+## 🛠️ Technology Stack
+
+- **Backend:** Laravel (PHP)
+- **Frontend:** React.js, Inertia.js
+- **Styling:** Tailwind CSS
+- **Database:** MySQL
+- **Tools:** Vite, QRCode.react
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone [https://github.com/your-username/LTen-Commerce.git](https://github.com/your-username/LTen-Commerce.git)
+   cd LTen-Commerce
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
