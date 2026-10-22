@@ -2,8 +2,8 @@
 
 A modern, full-stack Point of Sale (POS) system built to handle real-world retail scenarios efficiently. Designed with **Laravel** and **Inertia.js**, featuring a unique **Real-time QRIS Simulation** ecosystem.
 
-![Project Screenshot](https://via.placeholder.com/800x400?text=Upload+Screenshot+Project+Kamu+Disini)
-*(Jangan lupa ganti link gambar di atas dengan screenshot asli project kamu)*
+![Project Screenshot](https://via.placeholder.com/800x400?text=Upload+Screenshot+Projectnya)
+*(note: jgn lupa ganti link gambar di atas dengan screenshot asli project)*
 
 ## 🔥 Key Features
 
