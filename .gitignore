@@ -18,7 +18,16 @@
 /public/storage
 /storage/*.key
 /storage/pail
+/storage/framework/lsp-*.php
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
 /vendor
 Homestead.json
 Homestead.yaml
 Thumbs.db
+database/database.sqlite
+database/database.sqlite-journal
+*.sqlite
+*.sqlite3

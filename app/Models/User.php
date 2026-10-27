@@ -21,7 +21,16 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'role',
     ];
+
+    /**
+     * Relasi ke Order (Pesanan yang diproses kasir/user)
+     */
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
 
     /**
      * The attributes that should be hidden for serialization.

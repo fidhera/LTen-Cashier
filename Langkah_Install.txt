@@ -1,0 +1,27 @@
+Langkah Untuk Installasi sampai bisa running (Cara Running di Lokal):
+instruksi ini ketika mengekstrak file ZIP:
+
+1. Buka folder project hasil ekstrak di VS Code, lalu buka terminal.
+
+2. Install dependencies PHP dan Node.js (Copy Paste satu-satu di terminal vscode):
+   - composer install
+   - npm install
+
+3. Copy file ".env.example", paste di folder yang sama, lalu ubah nama hasil copy-nya menjadi ".env"
+
+4. Generate application key (Copy Paste di terminal vscode):
+   - php artisan key:generate
+
+5. Setup Database: - Buka aplikasi XAMPP/Laragon dan buka phpMyAdmin (atau HeidiSQL).
+   - Buat database kosong baru, beri nama sesuai dengan yang ada di file .env bagian DB_DATABASE (misal: ltencashier).
+
+6. Eksekusi tabel dan isi data dummy (akun admin, produk, dll) (Copy Paste di terminal vscode):
+   - php artisan migrate:fresh --seed
+
+7. Jalankan server lokal (Copy Paste di terminal vscode):
+
+    # Terminal 1
+    php artisan serve
+
+    # Terminal 2 (Buka terminal baru)
+    npm run dev

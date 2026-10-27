@@ -44,8 +44,8 @@ class HandleInertiaRequests extends Middleware
                 'error' => fn () => $request->session()->get('error'),
             ],
 
-            // 3. KIRIM SETTING TOKO (GLOBAL)
-            'shop_settings' => fn () => Setting::first(),
+            // 3. KIRIM SETTING TOKO (GLOBAL) - DI-CACHE AGAR SUPER CEPAT DAN TIDAK LAG
+            'shop_settings' => fn () => \Illuminate\Support\Facades\Cache::remember('shop_settings', 600, fn () => Setting::first()),
         ];
     }
 }

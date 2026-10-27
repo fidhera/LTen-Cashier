@@ -47,6 +47,8 @@ class SettingController extends Controller
 
         $setting->update($data);
 
+        \Illuminate\Support\Facades\Cache::forget('shop_settings');
+
         return redirect()->back()->with('success', 'Shop settings updated successfully!');
     }
 }
